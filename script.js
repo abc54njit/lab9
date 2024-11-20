@@ -18,9 +18,10 @@ console.log(characterName.toUpperCase());
 const spell = ' Expelliarmus ';
 console.log(spell.trim());
 
+
 // Q5
 const quote = 'I solemnly swear that I am up to no good';
-console.log(quote.slice(11, 16));
+console.log(quote.slice(10,15));
 
 // Q6
 const firstName2 = 'Ron';
@@ -36,6 +37,7 @@ const houses = ['Gryffindor', 'Hufflepuff', 'Ravenclaw'];
 houses.push('Slytherin');
 houses.pop();
 console.log(houses);
+
 
 // Q9
 const spells = ['Alohomora', 'Lumos', 'Nox'];
@@ -61,6 +63,7 @@ console.log(phrase.trim().toLowerCase().concat(' - Harry'));
 const wizards = ['Harry', 'Hermione', 'Ron'];
 wizards.push('Luna', 'Draco');
 console.log(wizards);
+
 
 // Q14
 const message = 'Welcome to Hogwarts School of Witchcraft and Wizardry';
